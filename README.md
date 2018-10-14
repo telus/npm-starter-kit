@@ -1,6 +1,8 @@
-# @telus/remark-preset-lint-markdown
+# Remark Preset
 
-remark preset to configure `remark-lint` with settings that inherit from [`remark-preset-lint-markdown-style-guide`][remark-preset-lint-markdown-style-guide] with some customization for usage at TELUS.
+[![version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url]
+
+> remark preset to configure `remark-lint` with settings that inherit from [`remark-preset-lint-markdown-style-guide`][remark-preset-lint-markdown-style-guide] with some customization for usage at TELUS.
 
 ## Usage
 
@@ -36,5 +38,16 @@ remark --quiet --frail .
   ...
 }
 ```
+
+---
+> Github: [@telus](https://github.com/telus) &bull; 
+> Twitter: [@telusdigital](https://twitter.com/telusdigital)
+
+[circle-url]: https://circleci.com/gh/telus/remark-preset-lint-markdown
+[circle-image]: https://img.shields.io/circleci/project/github/telus/remark-preset-lint-markdown/master.svg?style=for-the-badge&logo=circleci
+
+[npm-url]: https://www.npmjs.com/package/@telus/remark-preset-lint-markdown
+[npm-image]: https://img.shields.io/npm/v/@telus/remark-preset-lint-markdown.svg?style=for-the-badge&logo=npm
+
 
 [remark-preset-lint-markdown-style-guide]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-markdown-style-guide
