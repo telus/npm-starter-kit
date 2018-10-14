@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-development",
+  "version": "1.1.0",
   "name": "@telus/remark-preset-lint-markdown",
   "description": "remark preset to configure remark-lint with rules that enforce the markdown style guide",
   "homepage": "https://github.com/telus/remark-preset-lint-markdown",
@@ -9,7 +9,14 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "keywords": ["telus","remark","preset","markdown","style","guide"],
+  "keywords": [
+    "telus",
+    "remark",
+    "preset",
+    "markdown",
+    "style",
+    "guide"
+  ],
   "engines": {
     "node": ">=8"
   },
