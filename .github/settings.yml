@@ -34,7 +34,6 @@ branches:
         contexts:
           - 'ci/circleci: build'
           - 'ci/circleci: lint'
-          - 'ci/circleci: unit'
 
       enforce_admins: true
 
