@@ -1,5 +1,5 @@
 repository:
-  name: remark-preset-lint-markdown
+  name: remark-config
   description: remark preset to configure remark-lint with rules that enforce the markdown style guide
   topics: remark,preset,markdown,style,guide
   homepage: https://telus.com/digital

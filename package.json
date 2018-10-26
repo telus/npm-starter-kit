@@ -1,11 +1,11 @@
 {
   "version": "1.1.0",
-  "name": "@telus/remark-preset-lint-markdown",
+  "name": "@telus/remark-config",
   "description": "remark preset to configure remark-lint with rules that enforce the markdown style guide",
-  "homepage": "https://github.com/telus/remark-preset-lint-markdown",
+  "homepage": "https://github.com/telus/remark-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/telus/remark-preset-lint-markdown.git"
+    "url": "https://github.com/telus/remark-config.git"
   },
   "license": "MIT",
   "main": "index.js",
@@ -24,9 +24,10 @@
     "index.js"
   ],
   "bugs": {
-    "url": "https://github.com/telus/remark-preset-lint-markdown/issues"
+    "url": "https://github.com/telus/remark-config/issues"
   },
   "scripts": {
+    "lint:audit": "npm audit",
     "lint:deps": "npx david --error404 --errorSCM --errorDepType",
     "lint:ec": "npx editorconfig-checker .",
     "lint:js": "npx eslint .",

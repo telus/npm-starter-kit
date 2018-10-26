@@ -1,4 +1,4 @@
-# Remark Preset
+# Remark Config
 
 [![version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url]
 
@@ -9,7 +9,7 @@
 ###### 1. Install
 
 ```sh
-npm install --save-dev remark-cli @telus/remark-preset-lint-markdown
+npm install --save-dev remark-cli @telus/remark-config
 ```
 
 ###### 2. Configure
@@ -19,7 +19,7 @@ include a `.remarkrc` file in your project root directory:
 ```json
 {
   "plugins": [
-    "@telus/remark-preset-lint-markdown"
+    "@telus/remark-config"
   ]
 }
 ```
@@ -43,11 +43,11 @@ remark --quiet --frail .
 > Github: [@telus](https://github.com/telus) &bull; 
 > Twitter: [@telusdigital](https://twitter.com/telusdigital)
 
-[circle-url]: https://circleci.com/gh/telus/remark-preset-lint-markdown
-[circle-image]: https://img.shields.io/circleci/project/github/telus/remark-preset-lint-markdown/master.svg?style=for-the-badge&logo=circleci
+[circle-url]: https://circleci.com/gh/telus/remark-config
+[circle-image]: https://img.shields.io/circleci/project/github/telus/remark-config/master.svg?style=for-the-badge&logo=circleci
 
-[npm-url]: https://www.npmjs.com/package/@telus/remark-preset-lint-markdown
-[npm-image]: https://img.shields.io/npm/v/@telus/remark-preset-lint-markdown.svg?style=for-the-badge&logo=npm
+[npm-url]: https://www.npmjs.com/package/@telus/remark-config
+[npm-image]: https://img.shields.io/npm/v/@telus/remark-config.svg?style=for-the-badge&logo=npm
 
 
 [remark-preset-lint-markdown-style-guide]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-markdown-style-guide
