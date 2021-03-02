@@ -6,6 +6,6 @@ module.exports.plugins = [
   ['lint-maximum-line-length', false],
   ['lint-emphasis-marker', '_'],
   ['lint-ordered-list-marker-value', 'ordered'],
-  ['remark-lint-table-pipe-alignment', false],
-  ['remark-lint-table-cell-padding', false]
+  ['lint-table-pipe-alignment', false],
+  ['lint-table-cell-padding', false]
 ]
