@@ -29,7 +29,7 @@
   "scripts": {
     "lint:audit": "npm audit",
     "lint:deps": "npx david --error404 --errorSCM --errorDepType",
-    "lint:ec": "npx editorconfig-checker .",
+    "lint:ec": "npx editorconfig-checker",
     "lint:js": "npx eslint .",
     "lint": "npx npm-run-all -p lint:*"
   },
