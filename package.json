@@ -31,7 +31,7 @@
     "lint:deps": "npx david --error404 --errorSCM --errorDepType",
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "npx @telus/telus-standard --verbose",
-    "lint": "npm-run-all -p lint:*"
+    "lint": "npx npm-run-all -p lint:*"
   },
   "dependencies": {
     "remark-preset-lint-markdown-style-guide": "^4.0.0"
