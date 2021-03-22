@@ -32,7 +32,7 @@
     "lint:js": "npx @telus/telus-standard --verbose",
     "lint": "npm run lint:js && npm run lint:ec && npm run lint:ec",
     "release": "npx semantic-release",
-    "release:dryrun": "npx semantic-release --dry-run --branch $(git describe --contains --all HEAD)"
+    "release:dryrun": "npx semantic-release --dry-run -b $(git describe --contains --all HEAD)"
   },
   "dependencies": {
     "@telus/semantic-release-config": "^1.3.9",
