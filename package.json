@@ -28,7 +28,7 @@
   },
   "scripts": {
     "lint:audit": "npx audit-ci@4.1.0 --config .audit-ci.json",
-    "lint:deps": "npx david --error404 --errorSCM --errorDepType",
+    "lint:deps": "npx david --error404 --errorSCM --errorDepType --ignore=husky",
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "npx @telus/telus-standard --verbose",
     "lint": "npm-run-all -p lint:*"
@@ -38,6 +38,9 @@
     "remark-preset-lint-markdown-style-guide": "^4.0.0"
   },
   "devDependencies": {
-    "@telus/semantic-release-config": "^2.0.1"
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-angular": "^12.1.4",
+    "@telus/semantic-release-config": "^2.0.1",
+    "husky": "^4.3.8"
   }
 }
