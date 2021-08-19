@@ -26,9 +26,15 @@
   "bugs": {
     "url": "https://github.com/telus/remark-config/issues"
   },
+  "david": {
+    "ignore": [
+      "husky",
+      "remark-preset-lint-markdown-style-guide"
+    ]
+  },
   "scripts": {
     "lint:audit": "npx audit-ci@4.1.0 --config .audit-ci.json",
-    "lint:deps": "npx david --error404 --errorSCM --errorDepType --ignore=husky",
+    "lint:deps": "npx david --error404 --errorSCM --errorDepType",
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "npx @telus/telus-standard --verbose",
     "lint": "npm-run-all -p lint:*"
@@ -38,8 +44,8 @@
     "remark-preset-lint-markdown-style-guide": "^4.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-angular": "^12.1.4",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-angular": "^13.1.0",
     "@telus/semantic-release-config": "^2.0.1",
     "husky": "^4.3.8"
   }
