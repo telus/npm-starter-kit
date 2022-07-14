@@ -33,7 +33,7 @@
     ]
   },
   "scripts": {
-    "lint:audit": "npx audit-ci@4.1.0 --config .audit-ci.json",
+    "lint:audit": "npx audit-ci@6.3.0 --config .audit-ci.jsonc",
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "npx @telus/telus-standard --verbose",
     "lint": "npm-run-all -p lint:*"
