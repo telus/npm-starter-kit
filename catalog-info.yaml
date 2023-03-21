@@ -3,16 +3,22 @@ kind: Component
 metadata:
   name: remark-config
   description: >-
-    Remark config preset to configure remark-lint with some customization for
-    usage at TELUS
+    Remark config preset to configure remark-lint with some customization for usage
+    at TELUS
   tags:
     - module
     - npm
     - node
+    - github-actions
+    - workflows
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/name=remark-config
     backstage.io/techdocs-ref: dir:docs
     github.com/project-slug: telus/remark-config
+    telus.com/vp: harry.mcintosh@telus.com
+    telus.com/director: steve.tannock@telus.com
+    telus.com/manager: stephen.marie-rhodes@telus.com
+    telus.com/maintainer: valentin.prugnaud@telus.com
   links:
     - url: https://github.com/telus/remark-config
       title: Website
@@ -28,8 +34,8 @@ kind: API
 metadata:
   name: remark-config
   description: >-
-    Remark config preset to configure remark-lint with some customization for
-    usage at TELUS
+    Remark config preset to configure remark-lint with some customization for usage
+    at TELUS
   tags:
     - module
     - npm
