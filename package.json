@@ -46,6 +46,6 @@
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-angular": "^17.3.0",
     "@telus/semantic-release-config": "^2.2.5",
-    "husky": "^4.3.8"
+    "husky": "^8.0.3"
   }
 }
