@@ -36,7 +36,8 @@
     "lint:audit": "npx audit-ci --config .audit-ci.jsonc",
     "lint:ec": "npx editorconfig-checker",
     "lint:js": "npx @telus/telus-standard --verbose",
-    "lint": "npm-run-all -p lint:*",
+    "lint": "npm-run-all -p -c -l lint:*",
+    "test": "echo 'No tests'",
     "prepare": "husky install"
   },
   "dependencies": {
