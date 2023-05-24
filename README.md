@@ -1,8 +1,9 @@
+![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg)
+![npm](https://img.shields.io/npm/v/@telus/remark-config)
+
 # Remark Config
 
-[![version][npm-image]][npm-url]
-
-> remark preset to configure `remark-lint` with settings that inherit from [`remark-preset-lint-markdown-style-guide`][remark-preset-lint-markdown-style-guide] with some customization for usage at TELUS.
+Remark preset to configure `remark-lint` with settings that inherit from [`remark-preset-lint-markdown-style-guide`](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-markdown-style-guide) with some customization for usage at TELUS.
 
 ## Usage
 
@@ -42,8 +43,3 @@ remark --quiet --frail .
 ---
 > Github: [@telus](https://github.com/telus) &bull; 
 > Twitter: [@telusdigital](https://twitter.com/telusdigital)
-
-[npm-url]: https://www.npmjs.com/package/@telus/remark-config
-[npm-image]: https://img.shields.io/npm/v/@telus/remark-config.svg?style=for-the-badge&logo=npm
-
-[remark-preset-lint-markdown-style-guide]: https://github.com/remarkjs/remark-lint/tree/master/packages/remark-preset-lint-markdown-style-guide
